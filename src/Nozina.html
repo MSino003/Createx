@@ -1,23 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
     <link rel="stylesheet" href="./output.css">
     <link rel="stylesheet" href="./Nozina.css">
+    <style>
+        #brd {
+            width: 95%;
+            height: auto;
+            outline: 1px solid #cd0000;
+            /* border: 1px solid #cd0000; */
+        }
+    </style>
 </head>
+
 <body>
     <header>
-        <nav>
+        <nav class="max-w-[1300px] flex justify-between items-center m-auto">
             <img src="./img_Noza/logo (2).svg" alt="">
-            <ul>
+            <ul class="flex justify-between items-center gap-[40px] p-[20px]">
                 <li>
-                    <a href="#" class="">About Us</a>
+                    <a href="#" class="no-underline">About Us</a>
+                </li>
+                <li>
+                    <a href="#" class="no-underline">Courses</a>
+                </li>
+                <li>
+                    <a href="#" class="no-underline">Events</a>
+                </li>
+                <li>
+                    <a href="#" class="no-underline">Blog</a>
+                </li>
+                <li>
+                    <a href="#" class="no-underline">Contacts</a>
                 </li>
             </ul>
+
+            <div>
+                <button class="bg-[#FF3F3A] text-white p-[18px] rounded-[10px]">Get consultation</button>
+                <button class="bg-white text-[#FF3F3A] p-[18px] rounded-[10px] border-[#FF3F3A] border-[1px]">Log in /
+                    Register</button>
+            </div>
         </nav>
+
+
+        <section class="max-w-[1300px] flex justify-between items-center m-auto">
+            <aside class="w-[50%]">
+                <h6 class="text-[20px] p-[20px]">About us</h6>
+                <h1 class="text-[50px] p-[20px]">Createx Online School</h1>
+                <h6 class="text-[20px] p-[20px]">Createx Online School is a leader in online studying. We have lots
+                    of courses and programs from the main market experts.</h6>
+                <p class="p-[20px]">We provide relevant approaches to online learning, internships and employment in the
+                    largest companies in the country. Our educational programs help you get a new specialty from
+                    scratch. During your studies, we will help you find a job. Check the courses and online events that
+                    we organise.</p>
+                <div class="p-[20px]">
+                    <button
+                        class="bg-white text-[#FF3F3A] p-[18px] rounded-[10px] border-[#FF3F3A] border-[1px]">Explore
+                        events</button>
+                    <button class="bg-[#FF3F3A] text-white p-[18px] rounded-[10px]">Browse courses</button>
+                </div>
+            </aside>
+            <img src="./img_Noza/illustration.png" alt="picture 1">
+        </section>
     </header>
-    
+
+
+    <main>
+        <section class="max-w-[1300px] flex justify-between items-center m-auto p-[20px] mt-[100px]">
+            <img src="./img_Noza/video.png" alt="picture 2">
+
+
+            <aside>
+                <p><span class="text-[35px] text-[#FF3F3A]">1200</span>students graduated</p>
+                <p><span class="text-[35px] text-[#FF3F3A]">84</span>students graduated</p>
+                <p><span class="text-[35px] text-[#FF3F3A]">16</span>students graduated</p>
+                <p><span class="text-[35px] text-[#FF3F3A]">5</span>students graduated</p>
+
+
+            </aside>
+
+
+        </section>
+
+
+
+        <section class="max-w-[1300px] m-auto mt-[100px] text-center">
+
+            <h6 class="text-[20px] p-[20px] text-center">We always stand for</h6>
+            <h1 class="text-[50px] p-[20px] text-center">Our core values</h1>
+
+
+            <div class="flex justify-between items-center gap-[80px]">
+                <article class="d-flex justify-center">
+
+                    <img src="./img_Noza/ic-structure.svg" alt="icon" class="m-auto">
+                    <h6 class="text-[20px]">Structured Approach</h6>
+                    <p>Aenean urna dictum adipiscing nec, cras quisque. Nunc in mauris. </p>
+
+                </article>
+                <article>
+
+                    <img src="./img_Noza/ic-chat.svg" alt="icon" class="m-auto">
+                    <h6 class="text-[20px]">Professional Feedbacks</h6>
+                    <p>Aenean urna dictum adipiscing nec, cras quisque. Nunc in mauris. </p>
+
+                </article>
+                <article>
+
+                    <img src="./img_Noza/ic-target.svg" alt="icon" class="m-auto">
+                    <h6 class="text-[20px]">Efficiency</h6>
+                    <p>Aenean urna dictum adipiscing nec, cras quisque. Nunc in mauris. </p>
+
+                </article>
+                <article>
+
+                    <img src="./img_Noza/ic-calendar.svg" alt="icon" class="m-auto">
+                    <h6 class="text-[20px]">Flexible Shedule</h6>
+                    <p>Aenean urna dictum adipiscing nec, cras quisque. Nunc in mauris. </p>
+
+                </article>
+            </div>
+
+        </section>
+
+
+        <section class="max-w-[1300px] m-auto mt-[100px]">
+
+            <h6 class="text-[20px] p-[20px] text-center">our main directions</h6>
+            <h1 class="text-[50px] p-[20px] text-center">What do we teach</h1>
+
+
+            <div id="brd" class="flex justify-between items-center gap-[40px]">
+                <article class="border-gray-500">
+                    <img src="./img_Noza/image 1.png" alt="">
+                    <button
+                        class="bg-[#03CEA4] text-white p-[10px] rounded-[10px] mt-[20px] ml-[20px]">Marketing</button>
+                    <p class="w-[95%] mt-[20px] p-[20px]">Odio posuere netus quisque faucibus lectus arcu donec. Eget
+                        dictum eu viverra faucibus. Viverra scelerisque consequat.</p>
+                    <h6 class="p-[20px]"><b>Check courses</b></h6>
+                </article>
+                <article class="border-gray-500">
+                    <img src="./img_Noza/image.png" alt="">
+                    <button
+                        class="bg-[#03CEA4] text-white p-[10px] rounded-[10px] mt-[20px] ml-[20px]">Marketing</button>
+                    <p class="w-[95%] mt-[20px] p-[20px]">Odio posuere netus quisque faucibus lectus arcu donec. Eget
+                        dictum eu viverra faucibus. Viverra scelerisque consequat.</p>
+                    <h6 class="p-[20px]"><b>Check courses</b></h6>
+                </article>
+                <article class="border-gray-500">
+                    <img src="./img_Noza/image 2.png" alt="">
+                    <button
+                        class="bg-[#03CEA4] text-white p-[10px] rounded-[10px] mt-[20px] ml-[20px]">Marketing</button>
+                    <p class="w-[95%] mt-[20px] p-[20px]">Odio posuere netus quisque faucibus lectus arcu donec. Eget
+                        dictum eu viverra faucibus. Viverra scelerisque consequat.</p>
+                    <h6 class="p-[20px]"><b>Check courses</b></h6>
+                </article>
+            </div>
+
+            <div id="brd" class="flex justify-between items-center gap-[40px] mt-[40px]">
+                <article class="border-gray-500">
+                    <img src="./img_Noza/image 3.png" alt="">
+                    <button
+                        class="bg-[#03CEA4] text-white p-[10px] rounded-[10px] mt-[20px] ml-[20px]">Marketing</button>
+                    <p class="w-[95%] mt-[20px] p-[20px]">Odio posuere netus quisque faucibus lectus arcu donec. Eget
+                        dictum eu viverra faucibus. Viverra scelerisque consequat.</p>
+                    <h6 class="p-[20px]"><b>Check courses</b></h6>
+                </article>
+                <article class="border-gray-500">
+                    <img src="./img_Noza/image 4.png" alt="">
+                    <button
+                        class="bg-[#03CEA4] text-white p-[10px] rounded-[10px] mt-[20px] ml-[20px]">Marketing</button>
+                    <p class="w-[95%] mt-[20px] p-[20px]">Odio posuere netus quisque faucibus lectus arcu donec. Eget
+                        dictum eu viverra faucibus. Viverra scelerisque consequat.</p>
+                    <h6 class="p-[20px]"><b>Check courses</b></h6>
+                </article>
+                <article class="border-gray-500">
+                    <img src="./img_Noza/image.png" alt="">
+                    <button
+                        class="bg-[#03CEA4] text-white p-[10px] rounded-[10px] mt-[20px] ml-[20px]">Marketing</button>
+                    <p class="w-[95%] mt-[20px] p-[20px]">Odio posuere netus quisque faucibus lectus arcu donec. Eget
+                        dictum eu viverra faucibus. Viverra scelerisque consequat.</p>
+                    <h6 class="p-[20px]"><b>Check courses</b></h6>
+                </article>
+            </div>
+
+
+
+        </section>
+
+
+
+    </main>
+
 </body>
+
 </html>
