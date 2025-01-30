@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="./output.css">
 </head>
 <body>
-    <header class="bg-[#f9ccc8] m-auto max-w-[1200px] p-[20px] ">
+    <header class="bg-[#f9ccc8] m-auto max-w-[1200px] p-[20px]">
         <nav class="flex justify-between items-center mb-[40px]">
             <div class="flex items-center gap-[50px]">
                 <img src="./images_irshod/nav_logo.png" alt="">
-                <div class="flex items-center gap-[20px]">
+                <div class="lg:flex items-center gap-[20px] hidden">
                     <p>About Us</p>
                     <p>Courses</p>
                     <p>Events</p>
@@ -19,15 +19,76 @@
                     <p>Contacts</p>
                 </div>
             </div>
-            <div class="flex items-center gap-[20px]">
+            <div class="items-center gap-[20px] lg:flex hidden">
                 <button class="rounded-lg p-[10px] bg-[#FF3F3A] text-white">Get consultation</button>
                 <div class="flex items-center gap-[5px]"><img src="./images_irshod/Profile_logo.png" alt="">Log in / Register</div>
             </div>
+            <img src="./images_irshod/burger7.png" alt="" class="lg:hidden flex">
         </nav>
         <section>
             <p class="text-center text-[#FF3F3A]">course</p>
-            <h1 class="text-center font-bold text-[30px]">User Experience. Principles of Human-Centered <br> Design</h1>
+            <h1 class="text-center font-bold text-[30px]">User Experience. Principles of Human-Centered <br class="lg:block hidden"> Design</h1>
         </section>
     </header>
+
+    <main class="m-auto max-w-[1200px] p-[20px] bg-[#fdfdfe]">
+        <section class="flex justify-between lg:flex-row flex-col">
+            <aside class="lg:w-[58%]">
+                <h1 class="font-bold text-[30px]">About the course</h1>
+                <br>
+                <p>Bibendum vulputate adipiscing venenatis at est, a eu tincidunt. Leo aenean congue in sagittis, felis maecenas amet
+                varius at. Pellentesque euismod in faucibus at elementum. Tellus maecenas libero est tempus sit cras at malesuada diam.
+                Consequat senectus dictumst non hac dignissim montes, pretium, egestas molestie. Sed magna aliquet ornare nibh vel
+                lectus diam eget pretium. Lorem risus nunc tincidunt tortor, mi nulla pellentesque</p>
+                <br>
+                <br>
+                <h2 class="font-bold text-[20px]">You will learn:</h2>
+                <br>
+                <div>
+                    <div class="flex items-center gap-[10px]">
+                        <img src="./images_irshod/check.png" alt="">
+                        <p>A fermentum in morbi pretium aliquam adipiscing donec tempus.</p>
+                    </div>
+                    <div class="flex items-center gap-[10px]">
+                        <img src="./images_irshod/check.png" alt="">
+                        <p>Vulputate placerat amet pulvinar lorem nisl.</p>
+                    </div>
+                    <div class="flex items-center gap-[10px]">
+                        <img src="./images_irshod/check.png" alt="">
+                        <p>Consequat feugiat habitant gravida quisque elit bibendum id adipiscing sed.</p>
+                    </div>
+                    <div class="flex items-center gap-[10px]">
+                        <img src="./images_irshod/check.png" alt="">
+                        <p>Etiam duis lobortis in fames ultrices commodo nibh.</p>
+                    </div>
+                    <div class="flex items-center gap-[10px]">
+                        <img src="./images_irshod/check.png" alt="">
+                        <p>Fringilla in nec risus congue venenatis pretium posuere nec.</p>
+                    </div>
+                    <div class="flex items-center gap-[10px]">
+                        <img src="./images_irshod/check.png" alt="">
+                        <p>Cursus eu pretium, vulputate tempus quam massa sed at.</p>
+                    </div>
+                </div>
+            </aside>
+            <aside class="lg:w-[38%]">
+                <div class="p-[30px] bg-[#ffff] shadow-sm">
+                    <p class="font-bold">DATES</p>
+                    <h2 class="text-[20px] text-[#FF3F3A] font-bold">Sept 7 – Nov 2</h2>
+                    <p>Metus turpis sit lorem lacus, in elit tellus lacus.</p>
+                    <br>
+                    <p class="font-bold">Duration</p>
+                    <h2 class="text-[20px] text-[#FF3F3A] font-bold">2 months – 8 lessons</h2>
+                    <p>Rhoncus pellentesque auctor auctor orci vulputate faucibus quis ut.</p>
+                    <br>
+                    <p class="font-bold">Price</p>
+                    <h2 class="text-[20px] text-[#FF3F3A] font-bold">$120 per month</h2>
+                    <p>Nulla sem adipiscing adipiscing felis fringilla. Adipiscing mauris quam ac elit tristique dis.</p>
+                    <br>
+                    <button class="bg-[#FF3F3A] text-white">Join the course</button>
+                </div>
+            </aside>
+        </section>
+    </main>
 </body>
 </html>
